@@ -14,6 +14,6 @@ class BankAccount
   end
   
   def display_balance
-    return "Your balance is #{@balance}"
+    return "Your balance is $#{@balance}."
   end
 end
