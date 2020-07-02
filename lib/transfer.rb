@@ -4,6 +4,6 @@ class Transfer
   attr_reader
   
   def initialize(sender)
-    @status = status
+    @sender = sender
   end
 end
