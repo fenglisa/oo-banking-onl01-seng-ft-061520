@@ -3,7 +3,7 @@ class Transfer
   attr_writer
   attr_reader
   
-  def initialize(status="pending")
+  def initialize()
     @status = status
   end
 end
